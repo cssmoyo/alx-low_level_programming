@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-/***
+/**
  * main - Point of Entry
  * Return: Always 1
  */
