@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  *main- print variable n(postitive ,is zero or negative)
  *Return: Always 0
