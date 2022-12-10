@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main- print variable n(postitive or negative)
+ *main- print variable n(postitive ,is zero or negative)
  *Return: Always 0
  */
 
@@ -19,10 +19,10 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d negative\n", n);
+		printf("%d is zero\n", n);
 	else
 	{
-		printf("%d zero\n", n);
+		printf("%d negative\n", n);
 	}
 
 	return (0);
