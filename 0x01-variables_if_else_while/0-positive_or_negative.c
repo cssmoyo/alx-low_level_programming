@@ -16,8 +16,8 @@ int main(void)
 	if (n > 0)
 	{
 		pintf("%d positive\n", n);
-	}
-	else if (n < 0)
+	i}
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	else
