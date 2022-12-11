@@ -17,7 +17,7 @@ int main(void)
 	if (n > 0)
 	{
 		pintf("%d positive\n", n);
-	i}
+	}
 	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
