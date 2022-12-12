@@ -1,18 +1,25 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
- *main - prints the alphabet in lowercase, followed by a new line
+ *main - Point of Entry
+ * prints alphabet in lowercase, followed by a new line
  *Return: Always 0
  */
 
 int main(void)
 {
-	char la;
+	char lw;
+	char e, q;
 
-	for (la = "a"; la <= "z"; la+=)
+	e = 'e';
+	q = 'q';
+
+	for (lw = 'a'; lw <= 'z'; lw++)
 	{
-		if (la != "e" && la != "q")
-			putchar(la);
+		if (lw != e && lw != q)
+			putchar(lw);
 	}
 
 	putchar('\n');
