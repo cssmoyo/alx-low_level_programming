@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
- *main- print variable n(postitive ,is zero or negative)
+ *main- Point of Entry
+ * print variable n(postitive ,is zero or negative)
  *Return: Always 0
  */
 
