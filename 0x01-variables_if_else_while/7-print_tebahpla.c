@@ -1,17 +1,20 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
- *main - print the lowercase alphabet in reverse,followd by line
+ *main - Point of Entry
+ *print lowercase alphabet in reverse,followd by line
  *Return: Always 0
  */
 
 int main(void)
 {
-	char le;
+	char lwcs;
 
-	for (le = "z"; le >= "a"; le--)
-		putchar(le);
-
+	for (lwcs = 'z'; lwcs >= 'a'; lwcs--)
+	putchar(lwcs);
 	putchar('\n');
 	return (0);
+
 }
