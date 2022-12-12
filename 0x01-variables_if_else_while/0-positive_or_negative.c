@@ -15,10 +15,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-		pintf("%d positive\n", n);
+		pintf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else
-		printf("%d negative\n", n);
+		printf("%d is negative\n", n);
 	return (0);
 }
