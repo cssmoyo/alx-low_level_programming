@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- *main - prints all single digit numbers of base 10 starting from 0,followed by new line
+ *main -Point of Entry
+ *prints all single digit numbers of base 10 starting from 0,new line
  *Return:Alyways 0
  */
 
