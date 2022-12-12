@@ -1,22 +1,25 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
- *main - print all base 166 numbers in lowercase,followed by line
+ *main - Point of Entry
+ *print all base 166 numbers in lowercase, them a line
  *Return: Always 0
  */
 
 int main(void)
 {
-	int num;
-	char la;
+	int i;
+	char lwc;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + "0");
+	for (i = '0'; i <= '9'; i++)
+	putchar(i);
 
-	for (la = "a"; la <= "f"; la +=)
-		putchar(la);
-
+	for (lwc = 'a'; lwc <= 'f'; lwc++)
+	putchar(lwc);
 	putchar('\n');
+
 	return (0);
 }
 
