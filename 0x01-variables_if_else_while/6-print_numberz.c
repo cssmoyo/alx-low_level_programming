@@ -1,18 +1,19 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
- *main - prints single digit num of base 10 from 0, followed by line
+ *main - Point of Entry
+ *prints single digit num of base 10 from 0,then line
  *Return: Always 0
  */
 
 int main(void)
 {
-	int num;
+	int a;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + "0");
-
+	for (a = '0'; a <= '9'; a++)
+	putchar(a);
 	putchar('\n');
-
 	return (0);
 }
