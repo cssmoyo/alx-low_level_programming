@@ -1,19 +1,22 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
- *main- pints the alphabet in lowercase, then in uppercase, followed by a new line
- *Return 0
+ *main - Point of Entry
+ * prints alphabet in lowercase,uppercase ,new line
+ *Return:Always 0
  */
 
 int main(void)
 {
-	char ch;
+	char ks;
 
-	for (ch = "a"; ch <= "z"; ch++)
-		putchar(ch);
+	for (ks = 'a'; ks <= 'z'; ks++)
+		putchar(ks);
 
-	for (ch = "A"; ch <= "Z"; ch++)
-		putchar(ch);
+	for (ks = 'A'; ks <= 'Z'; ks++)
+		putchar(ks);
 
 	putchar('\n');
 
