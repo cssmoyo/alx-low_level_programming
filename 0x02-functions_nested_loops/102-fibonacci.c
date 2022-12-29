@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the first 52 fibonacci numbers
- * Reurn: none
+ * Reurn: Always 0
  */
 
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	int n = 0;
 	long m = 1, o = 2;
 
-	while (n < 58)
+	while (n < 50)
 	{
 	if (n == 0)
 	printf("%ld", m);
