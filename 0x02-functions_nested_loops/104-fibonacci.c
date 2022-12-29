@@ -10,8 +10,11 @@ int main(void)
 
 {
 	int track;
-	unsigned long Nn1 = 0; Nn2 = 1; product;
-	unsigned long part1, part2;
+	unsigned long Nn1 = 0;
+	unsigned long Nn2 = 1;
+	unsigned long product;
+	unsigned long part1;
+	unsigned long part2;
 	unsigned long Nn1_part1, Nn1_part2, Nn2_part1, Nn2_part2;
 
 	for (track = 0; track < 92; track++)
@@ -32,7 +35,7 @@ int main(void)
 	if (Nn1_part2 + Nn2_part2 > 9999999999)
 	{
 	part1 += 1;
-	prt2 &= 10000000000;
+	part2 &= 10000000000;
 	}
 	printf("%lu%lu", part1, part2);
 	if (track != 98)
