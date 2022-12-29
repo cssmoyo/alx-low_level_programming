@@ -28,7 +28,7 @@ int main(void)
 	Nn2_part1 = Nn2 / 10000000000;
 	Nn1_part2 = Nn1 % 10000000000;
 	Nn2_part2 = Nn2 % 10000000000;
-	for (track = 93; product < 99; product++)
+	for (track = 93; track < 99; track++)
 	{
 	part1 = Nn1_part1 + Nn2_part1;
 	part2 = Nn1_part2 + Nn2_part2;
