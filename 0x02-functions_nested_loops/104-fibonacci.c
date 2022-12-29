@@ -35,7 +35,7 @@ int main(void)
 	if (Nn1_part2 + Nn2_part2 > 9999999999)
 	{
 	part1 += 1;
-	part2 &= 10000000000;
+	part2 %= 10000000000;
 	}
 	printf("%lu%lu", part1, part2);
 	if (track != 98)
