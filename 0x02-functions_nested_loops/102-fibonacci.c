@@ -14,14 +14,14 @@ int main(void)
 	while (n < 58)
 	{
 	if (n == 0)
-	printf("%d", m);
+	printf("%ld", m);
 	else if (n == 1)
-	printf(", %d", o);
+	printf(", %ld", o);
 	else
 	{
 	o += m;
 	m = o - m;
-	printf(", %d", o);
+	printf(", %ld", o);
 	}
 	++n;
 	}
