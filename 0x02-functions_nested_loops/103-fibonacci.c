@@ -14,7 +14,7 @@ int main(void)
 	long o = 2;
 	long sum = o;
 
-	while (o + m < 40000000)
+	while (o + m < 4000000)
 	{
 	o += m;
 	if (0 % 2 == 0)
