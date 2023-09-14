@@ -9,3 +9,5 @@ int _islower(int j);
 int _isalpha(int j);
 
 int print_sign(int j);
+
+int _abs(int j);
