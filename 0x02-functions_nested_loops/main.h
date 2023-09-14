@@ -11,3 +11,5 @@ int _isalpha(int j);
 int print_sign(int j);
 
 int _abs(int j);
+
+int print_last_digit(int j);
