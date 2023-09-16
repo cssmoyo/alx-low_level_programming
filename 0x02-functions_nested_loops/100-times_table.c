@@ -10,7 +10,7 @@ void print_times_table(int i)
 {
 int x, c, v;
 
-if (i >= 0 && i<=15)
+if (i >= 0 && i <= 15)
 {
 for (x = 0; x <= i; x++)
 {
@@ -35,6 +35,7 @@ _putchar((v / 10) + '0');
 }
 _putchar((v % 10) + '0');
 }
+_putchar('\n');
 }
 }
 }
