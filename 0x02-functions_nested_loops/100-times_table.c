@@ -22,18 +22,19 @@ _putchar(' ');
 v = x * c;
 if (v  <= 99)
 _putchar(' ');
-if (v <= 9);
+if (v <= 9)
 _putchar(' ');
 if (v >= 100)
 {
 _putchar((v / 100) + '0');
--putchar(((v / 10) % 10 + '0');
+_putchar(((v / 10)) % 10 + '0');
 }
 else if (v <= 99 && v >= 10)
-(
+{
 _putchar((v / 10) + '0');
 }
 _putchar((v % 10) + '0');
+}
 }
 }
 }
