@@ -32,12 +32,12 @@ if (fb1_prt2 + fb2_prt2 > 9999999999)
 prt1 += 1;
 prt2 %= 10000000000;
 }
-printf("%lulu%", prt1, prt2);
+printf("%lu%lu", prt1, prt2);
 if (num != 98)
 printf(",");
 fb1_prt1 = fb2_prt1;
 fb1_prt2 = fb2_prt2;
-fb2_prt = prt1;
+fb2_prt1 = prt1;
 fb2_prt2 = prt2;
 }
 printf("\n");
