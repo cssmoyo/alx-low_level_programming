@@ -20,13 +20,13 @@ fb1 = fb2;
 fb2 = sum;
 }
 fb1_prt1 = fb1 / 10000000000;
-fb2_prt2 = fb2 / 10000000000;
-fb1_prt1 = fb1 % 10000000000;
+fb2_prt1 = fb2 / 10000000000;
+fb1_prt2 = fb1 % 10000000000;
 fb2_prt2 = fb2 % 10000000000;
 for (num = 93; num < 99; num++)
 {
-prt1 = fb1_prt1 + fb1_prt2;
-prt2 = fb2_prt1 + fb2_prt2;
+prt1 = fb1_prt1 + fb2_prt1;
+prt2 = fb1_prt2 + fb2_prt2;
 if (fb1_prt2 + fb2_prt2 > 9999999999)
 {
 prt1 += 1;
