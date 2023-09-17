@@ -14,10 +14,8 @@ while (c + b < 4000000)
 {
 c += b;
 if (c % 2 == 0)
-{
 sum += c;
 b = c - b;
-}
 ++a;
 }
 printf("%d\n", sum);
