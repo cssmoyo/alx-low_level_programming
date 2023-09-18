@@ -1,6 +1,4 @@
-#include "main.h"
 #include <stdio.h>
-
 
 /**
  * main -  a program that prints the numbers from 1 to 100, + a new line
@@ -27,6 +25,10 @@ printf(" Buzz");
 else if ((y % 3 == 0) && (y % 5 == 0))
 {
 printf(" FizzBuzz");
+}
+else if (y == 1)
+{
+printf("%d", y);
 }
 else
 {
