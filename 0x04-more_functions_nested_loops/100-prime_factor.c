@@ -10,15 +10,15 @@ int main(void)
 {
 long a, max;
 long num =  612852475143;
-double root = sroot(num);
+double root = sqrt(num);
 
-for (a = 1; a <= root;; a++)
+for (a = 1; a <= root; a++)
 {
 if (num % a == 0)
 {
 max = num / a;
 }
 }
-printf("%ld", max);
+printf("%ld\n", max);
 return (0);
 }
