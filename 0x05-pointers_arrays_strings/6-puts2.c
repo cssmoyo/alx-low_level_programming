@@ -16,7 +16,7 @@ while (str[b] != '\0')
 b++;
 }
 
-for (a = 0; a < b; a +=2)
+for (a = 0; a < b; a += 2)
 {
 putchar(str[a]);
 }
