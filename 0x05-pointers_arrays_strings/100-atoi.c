@@ -2,36 +2,37 @@
 
 /**
  * _atoi -  convert a string to an integer
- * @s: pointer to be converted
+ * @s: pointer to be converte
  * Return: interger
  */
 
 int _atoi(char *s)
 {
 
-int a = 0, b = 1, c = 0;
-unsigned int d = 0;
+int a = 0;
+int line = 1;
+int num = 0;
+unsigned int b = 0;
 
 while (s[a])
 {
 if (s[a] == 45)
 {
-b *= -1;
+line *= -1;
 }
 while (s[a] >= 48 && s[a] <= 57)
 {
-c = 1;
-d = (d * 10) + (s[a] - '\0');
+num = 1;
+b = (b * 10) + (s[a] - '0');
 a++;
 }
-if (c == 1)
+if (num == 1)
 {
 break;
 }
 a++;
 }
-d *= b;
-
-return (d);
+b *= line;
+return (b);
 
 }
