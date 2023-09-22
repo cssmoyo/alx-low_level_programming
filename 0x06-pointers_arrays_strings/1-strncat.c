@@ -5,6 +5,7 @@
  * @dest: pointer to be checked
  * @src: pointer to be checked
  * @n: value to be checked
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
