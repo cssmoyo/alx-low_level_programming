@@ -3,8 +3,8 @@
 /**
  * _memcpy - copies memory area
  * @dest: memory address to be filled
- * @src: copy memory address 
- * @n:bytes 
+ * @src: copy memory address
+ * @n:bytes
  * Return: dest
  */
 
