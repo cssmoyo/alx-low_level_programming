@@ -49,12 +49,12 @@ while (b >= 0 || a >= 0 || more == 1)
 {
 if (a < 0)
 num1 = 0;
-else 
-num1 = *(n1 + a) - '0';
+else
+num1 = *(n1 + a) -'0';
 if (b < 0)
 num2 = 0;
 else
-num2 = *(n2 + b) - '0';
+num2 = *(n2 + b) -'0';
 hold_sum = num1 + num2 + more;
 if (hold_sum >= 10)
 more = 1;
