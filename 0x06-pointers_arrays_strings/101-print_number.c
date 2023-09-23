@@ -3,7 +3,7 @@
 
 /**
  * print_number - prints an integer
- * @x: interger to be checked
+ * @n: interger to be checked
  * Return: 0 (success)
  */
 
