@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * void print_buffer -  prints a buffer
+ * print_buffer -  prints a buffer
  * @b: charactor that will act as buffer
  * @size: buffer size
  * Return: void
@@ -20,7 +20,7 @@ return;
 
 while (n < size)
 {
-d = size - n < 10 ? size -n : 10;
+d = size - n < 10 ? size - n : 10;
 printf("%08x:", n);
 for (c = 0; c < 10; c++)
 {
