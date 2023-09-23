@@ -10,7 +10,9 @@
 
 void print_buffer(char *b, int size)
 {
-int n = 0, z, y;
+int n, a, c;
+
+n = 0;
 
 if (size <= 0)
 {
@@ -20,22 +22,22 @@ return;
 
 while (n < size)
 {
-z = size - n < 10 ? size - n : 10;
+a = size - n < 10 ? size - n : 10;
 printf("%08x:", n);
-for (y = 0; y < 10; y++)
+for (c = 0; c < 10; c++)
 {
-if (y < z)
+if (c < a)
 printf("%02x", *(b + n + y));
 else
 printf(" ");
-if (y % 2)
+if (c % 2)
 {
 printf(" ");
 }
 }
-for (y = 0; y < z; y++)
+for (c = 0; c < a; c++)
 {
-int e = *(b + n + y);
+int e = *(b + n + c);
 
 if (e < 32 || e > 132)
 {
