@@ -12,5 +12,7 @@ char *cap_string(char *x);
 char *leet(char *x);
 char *rot13(char *x);
 void print_number(int n);
+void reverse_string(char *x);
+void reverse_string(char *x);
 
 #endif
