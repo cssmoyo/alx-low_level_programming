@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leeet - encodes a string into 1337
+ * leet - encodes a string into 1337
  * @x: charactor to be checked
  * Return: x
  */
