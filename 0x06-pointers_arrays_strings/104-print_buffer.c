@@ -10,42 +10,42 @@
 
 void print_buffer(char *b, int size)
 {
-int n, f, e;
+int p, l, k;
 
-n = 0;
+p = 0;
 
 if (size <= 0)
 {
 printf("\n");
 return;
 }
-while (n < size)
+while (p < size)
 {
-f = size - n < 10 ? size - n : 10;
-printf("%08x: ", n);
-for (e = 0; e < 10; e++)
+l = size - p < 10 ? size - p : 10;
+printf("%08x: ", p);
+for (k = 0; k < 10; k++)
 {
-if (i < f)
-printf("%02x", *(b + n + e));
+if (k < l)
+printf("%02x", *(b + p + k));
 else
 printf("  ");
-if (e % 2)
+if (k % 2)
 {
 printf(" ");
 }
 }
-for (e = 0; e < f; e++)
+for (k = 0; k < l; k++)
 {
-int c = *(b + n + e);
+int d = *(b + p + k);
 
-if (c < 32 || c > 132)
+if (d < 32 || d > 132)
 {
-c = '.';
+d = '.';
 }
-printf("%c", c);
+printf("%c", d);
 }
 printf("\n");
-n += 10;
+p += 10;
 }
 }
 
